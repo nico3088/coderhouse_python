@@ -3,3 +3,4 @@
 # La cantidad de partidos que debemos considerar a un equipo para el ejemplo se detallan a continuación:
 # partidos_ganados 8 partido_empatados 7 partido_perdidos 5
 # Importante: Cada una de las cantidades de partidos ganados, empatados o perdidos debe solicitarse al usuario utilizando la función input().
+# Deslogueo de github
