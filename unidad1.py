@@ -7,3 +7,19 @@ Importante: Cada una de las cantidades de partidos ganados, empatados o perdidos
 Deslogueo de github 
 """
 
+"""Primer_desafio_unidad_1"""
+
+cantidad_de_partidos = 20
+puntaje_partidos_ganados = 3
+puntaje_partidos_empatados = 1
+puntaje_partidos_perdidos = 0
+
+partidos_ganados = int(input('Cantidad de partidos ganados'))
+partidos_empatdos = int(input('Cantidad de partidos empatados'))
+partidos_perdidos = int(input('Cantidad de partidos perdidos'))
+
+puntaje_total =(puntaje_partidos_ganados * partidos_ganados) + (puntaje_partidos_empatados * partidos_empatdos) + (puntaje_partidos_perdidos
+*partidos_perdidos)
+promedio_equipo = puntaje_total / cantidad_de_partidos
+print (promedio_equipo)
+
