@@ -35,3 +35,33 @@ cadena_4 = "de programación"
 
 print (cadena_2, cadena_3, cadena_4, cadena_1)
 
+"""Desafío Slicing
+Se tiene una cadena de texto, pero al revés. Al parecer contiene el nombre de un alumno, la nota de un exámen y la materia. De forma individual, realiza lo siguiente:
+
+Dar vuelta la cadena y asignarla a una variable llamada cadena_volteada. Para devolver una cadena dada vuelta se usa el tercer índice negativo con slicing: cadena[::-1].
+Extraer nombre y apellido, almacenarlo en una variable llamada nombre_alumno
+Extraer la nota y almacenarla en una variable llamada nota.
+Extraer la materia y almacenarla en una variable llamada materia.
+Mostrar por pantalla la siguiente estructura:
+😎NOMBRE APELLIDO ha sacado un NOTA en MATERIA. Esto ultimo hacerlo, formateando las anteriores variables en una variable llamada cadena_formateada
+
+cadena = “acitametaM ,5.8 ,otipeP ordeP” """
+
+cadena = "acitametaM ,5.8 ,otipeP ordeP"
+
+print(cadena[::-1])
+
+cadena_volteada = cadena[::-1]
+
+nombre_apellido = cadena_volteada[:12]
+print(nombre_apellido)
+
+nota = cadena_volteada[14:17] 
+print(nota)
+
+materia = cadena_volteada[19:30] 
+print(materia)
+
+print('😎' + nombre_apellido + ' ha sacado un ' + nota + ' en ' + materia)
+print(f'😎{nombre_apellido} ha sacado un {nota} en {materia}')
+
