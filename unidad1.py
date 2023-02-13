@@ -65,3 +65,5 @@ print(materia)
 print('😎' + nombre_apellido + ' ha sacado un ' + nota + ' en ' + materia)
 print(f'😎{nombre_apellido} ha sacado un {nota} en {materia}')
 
+
+
