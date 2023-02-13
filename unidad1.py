@@ -66,4 +66,21 @@ print('😎' + nombre_apellido + ' ha sacado un ' + nota + ' en ' + materia)
 print(f'😎{nombre_apellido} ha sacado un {nota} en {materia}')
 
 
+"""Actividad extra
+
+Trabajas en Coderhouse y te piden crear un programa que calcule la nota final de estudiantes del curso de Python. La nota final se calcula basándonos en tres notas previas de las cuales, cada una corresponde un porcentaje distinto de la nota final. Los porcentajes se detallan a continuación:
+
+nota_1 cuenta como el 20% de la nota final
+nota_2 cuenta como el 30% de la nota final
+nota_3 cuenta como el 50% de la nota final"""
+
+nota_1 = int(input("1er nota: "))
+
+nota_2 = int(input("2da nota: "))
+
+nota_3 = int(input("3er nota: "))
+
+nota_final = (nota_1 % 20 + nota_2 % 30 + nota_3 % 50) / 3
+
+print(nota_final)
 
