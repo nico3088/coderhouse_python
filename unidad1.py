@@ -4,10 +4,9 @@ jugaron 20 partidos durante el torneo, los partidos poseen diferente puntaje seg
 La cantidad de partidos que debemos considerar a un equipo para el ejemplo se detallan a continuación:
 partidos_ganados 8 partido_empatados 7 partido_perdidos 5
 Importante: Cada una de las cantidades de partidos ganados, empatados o perdidos debe solicitarse al usuario utilizando la función input().
-Deslogueo de github 
 """
 
-"""Primer_desafio_unidad_1"""
+"""primer_desafio_unidad_1"""
 
 cantidad_de_partidos = 20
 puntaje_partidos_ganados = 3
@@ -23,7 +22,7 @@ puntaje_total =(puntaje_partidos_ganados * partidos_ganados) + (puntaje_partidos
 promedio_equipo = puntaje_total / cantidad_de_partidos
 print (promedio_equipo)
 
-"""Segundo_desafio_unidad_1
+"""segundo_desafio_unidad_1
 Dadas cuatro variables con diferentes textos (de forma individual), genera una nueva variable con el siguiente contenido:
 
 Objetivo: “Python es un lenguaje de programación versátil” """
@@ -33,9 +32,11 @@ cadena_2 = "Python"
 cadena_3 = "es un lenguaje"
 cadena_4 = "de programación"
 
-print (cadena_2, cadena_3, cadena_4, cadena_1)
+cadena_completa = cadena_2, cadena_3, cadena_4, cadena_1
 
-"""Desafío Slicing
+print(cadena_completa)
+
+"""desafío_slicing
 Se tiene una cadena de texto, pero al revés. Al parecer contiene el nombre de un alumno, la nota de un exámen y la materia. De forma individual, realiza lo siguiente:
 
 Dar vuelta la cadena y asignarla a una variable llamada cadena_volteada. Para devolver una cadena dada vuelta se usa el tercer índice negativo con slicing: cadena[::-1].
@@ -49,12 +50,11 @@ cadena = “acitametaM ,5.8 ,otipeP ordeP” """
 
 cadena = "acitametaM ,5.8 ,otipeP ordeP"
 
+cadena_volteada = cadena[::-1]
 print(cadena[::-1])
 
-cadena_volteada = cadena[::-1]
-
-nombre_apellido = cadena_volteada[:12]
-print(nombre_apellido)
+nombre_alumno = cadena_volteada[:12]
+print(nombre_alumno)
 
 nota = cadena_volteada[14:17] 
 print(nota)
@@ -64,6 +64,3 @@ print(materia)
 
 print('😎' + nombre_apellido + ' ha sacado un ' + nota + ' en ' + materia)
 print(f'😎{nombre_apellido} ha sacado un {nota} en {materia}')
-
-
-
